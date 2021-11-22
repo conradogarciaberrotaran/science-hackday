@@ -3,7 +3,7 @@
 ## Rationale
 _The user in this use-case is a health provider supply administrator._
 
-After analysing the data provided in the dataset, I had the idea to present the data in a way that may provide some insight hard to see otherwise. 
+After analysing the data provided in the dataset, I had the idea to present the data in a way that may provide some insight hard to see otherwise.
 Each "record" of the dataset contains some geographical information, such as state, city and R.U.C.A (Rural-Urban Commuting Area codes).
 With this parameters, the idea of finding the most common procedures performed in a given state, aggregated by cities which fall inside a R.U.C.A range.
 This could give the "user" the lead on which procedures should be prioritized on certain zones and distribute supplies accordingly.
@@ -16,9 +16,10 @@ For example: most common procedures in Rural Texas or the Metropolitan cities of
 ## How to run for development
 1. Git clone the repo
 3. Make sure you're in a new virtualenv
-3. Run `pip install -r requirements-dev.txt` 
-4. Run `pytest` at the root of the project, all tests should pass
-5. You're ready for development!
+3. Run `pip install -r requirements-dev.txt`
+4. Run `pre-commit install`
+5. Run `pytest` at the root of the project, all tests should pass
+6. You're ready for development!
 
 ## How to run for production
 1. Git clone the repo

@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 class ProcedureResponse(BaseModel):
     city: str
     ruca: str
